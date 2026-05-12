@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moje Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Klára Chlupová</h1>
+    <nav>
+        <a href="#about">O mně</a>
+        <a href="#projects">Projekty</a>
+        <a href="#contact">Kontakt</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Ahoj, já jsem Klára</h2>
+    <p>Zpěvačka, Herečka, Textařka</p>
+    <button onclick="scrollToContact()">Kontaktuj mě</button>
+</section>
+
+<section id="about">
+    <h2>O mně</h2>
+    <div class="about-container">
+        
+        <div class="about-text">
+            <p>Ahoj! Jmenuji se Klára, je mi 17 let a od malička se zajímám o hudbu.</p>
+            <p>Jsem milovnice mnoho žánrů. Zpívám v kapelách    i sólo.</p>
+            <p></p>
+        </div>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>Plány do budoucna </h2>
+    <div class="projects">
+        <div class="card">
+            <h3>Větší role ve filmu...</h3>
+            <p>Chci hrát ve filmu, protože mě baví vyjadřovat emoce a vyprávět příběhy. Herectví mi umožňuje stát se na chvíli někým jiným. Fascinuje mě, jak může film ovlivnit lidi, vyvolat v nich radost, smutek nebo zamyšlení.
+
+Zároveň mě láká práce v kreativním prostředí, kde se spojuje mnoho talentovaných lidí. </p>     </div>
+        <div class="card">
+            <h3>Mít vlastní kapelu </h3>
+            <p>Se zpěvem s různými kapelami mám jen skvělé zkušenosti, chtěla bych mít stálé seskupení šikovných muzikantů a vystupovat po večírcích.  </p>
+        </div>
+        <div class="card">
+            <h3>Dostat se na zahraniční scénu </h3>
+            <p>Jako každý umělec bych chtěla prorazit a být na očích více lidem.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Kontakt</h2>
+    <p>Email: klarkachlupova@gmail.com</p>
+</section>
+
+<footer>
+    <p>© 2026 Klárka</p>
+</footer>
+
+<script>
+function scrollToContact() {
+    document.getElementById("contact").scrollIntoView({
+        behavior: "smooth"
+    });
+}
+</script>
+
+</body>
+</html>
